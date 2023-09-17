@@ -1,0 +1,13 @@
+.navActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 760px) {
+  .navActions {
+    display: none;
+  }
+}
