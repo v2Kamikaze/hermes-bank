@@ -42,7 +42,7 @@
 }
 
 .cta:hover {
-  background-color: #f9a826;
+  filter: brightness(0.95);
 }
 
 @media (max-width: 1240px) {

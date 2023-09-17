@@ -25,3 +25,8 @@ img {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+button,
+a {
+  cursor: pointer;
+}
