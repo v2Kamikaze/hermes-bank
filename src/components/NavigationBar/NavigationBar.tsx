@@ -4,7 +4,7 @@ import styles from "./NavigationBar.module.css";
 
 export function NavigationBar() {
   return (
-    <nav className={styles.navStyle}>
+    <nav className={`slideYAnim  ${styles.navStyle}`}>
       <div className={`baseContainer ${styles.navMenu}`}>
         <a className={styles.logo}>
           <h1>Hermes Bank</h1>
