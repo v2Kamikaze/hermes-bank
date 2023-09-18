@@ -14,7 +14,7 @@ export function NavigationBar() {
           <NavigationBarAction text="Início" href="#" />
           <NavigationBarAction text="Objetivos" href="#" />
           <NavigationBarAction text="Contate-nos " href="#" />
-          <NavigationBarAction text="Sobre nós" href="#" />
+          <NavigationBarAction text="Sobre nós" href="#about" />
         </NavigationBarActions>
       </div>
     </nav>

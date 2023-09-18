@@ -1,0 +1,30 @@
+.container {
+  padding: 1rem 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.text span {
+  color: #f9a826;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutImg {
+    display: none;
+  }
+}

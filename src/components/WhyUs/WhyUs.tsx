@@ -5,7 +5,10 @@ import { CardsList } from "./CardsList";
 
 export function WhyUs() {
   return (
-    <section className={`baseContainer ${styles.container}`}>
+    <section
+      id="about"
+      className={`baseContainer slideRightAnim ${styles.container}`}
+    >
       <h2>Por que escolher o Hermes Bank?</h2>
 
       <CardsList>

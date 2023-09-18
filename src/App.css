@@ -19,7 +19,7 @@ html {
   animation-duration: 1s;
 }
 
-@keyframes slideX {
+@keyframes slideLeft {
   from {
     opacity: 0;
     transform: translateX(-30px);
@@ -31,7 +31,24 @@ html {
   }
 }
 
-.slideXAnim {
-  animation-name: slideX;
+.slideLeftAnim {
+  animation-name: slideLeft;
+  animation-duration: 1s;
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.slideRightAnim {
+  animation-name: slideRight;
   animation-duration: 1s;
 }

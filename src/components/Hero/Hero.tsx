@@ -4,7 +4,7 @@ import { Arrow } from "../Icons";
 
 export function Hero() {
   return (
-    <main className={`baseContainer slideXAnim ${styles.container}`}>
+    <main className={`baseContainer slideLeftAnim ${styles.container}`}>
       <section className={styles.hero}>
         <h1 className={styles.title}>
           Dê boas vindas ao <span>Hermes Bank</span>! <br />

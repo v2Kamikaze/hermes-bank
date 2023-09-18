@@ -1,7 +1,14 @@
 .navAction {
   font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .navAction a {
   color: #000000;
+}
+
+.navAction:hover {
+  background-color: #f9a826;
 }
