@@ -1,0 +1,10 @@
+.container {
+  margin: 0 3rem;
+}
+
+.footerStyle {
+  padding: 1rem;
+  text-align: center;
+  height: 5rem;
+  box-shadow: 0px -1px 5px #c1c1c1;
+}

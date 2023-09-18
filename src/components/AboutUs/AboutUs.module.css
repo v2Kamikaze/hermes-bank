@@ -1,5 +1,13 @@
 .container {
-  padding: 1rem 3rem;
+  padding: 3rem;
+}
+
+.container > h2 {
+  font-size: 2rem;
+}
+
+.container span {
+  color: #f9a826;
 }
 
 .grid {
@@ -13,10 +21,6 @@
 .text {
   font-size: 1rem;
   font-weight: 600;
-}
-
-.text span {
-  color: #f9a826;
 }
 
 @media (max-width: 860px) {

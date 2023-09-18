@@ -11,10 +11,10 @@ export function NavigationBar() {
         </a>
 
         <NavigationBarActions>
-          <NavigationBarAction text="Início" href="#" />
-          <NavigationBarAction text="Objetivos" href="#" />
-          <NavigationBarAction text="Contate-nos " href="#" />
+          <NavigationBarAction text="Início" href="#hero" />
           <NavigationBarAction text="Sobre nós" href="#about" />
+          <NavigationBarAction text="Contate-nos " href="#contact" />
+          <NavigationBarAction text="Por que nós?" href="#why-us" />
         </NavigationBarActions>
       </div>
     </nav>

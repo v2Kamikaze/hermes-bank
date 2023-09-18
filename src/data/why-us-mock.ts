@@ -19,4 +19,8 @@ export const whyUsMock = [
     key: "Atendimento ao Cliente 24/7",
     text: "Estamos aqui quando você precisar. Nossa equipe de atendimento ao cliente está disponível 24 horas por dia, 7 dias por semana, para responder a todas as suas perguntas.",
   },
+  {
+    key: "Rentabilidade Competitiva",
+    text: "No Hermes Bank, além de inovação e segurança, oferecemos oportunidades de investimento que buscam maximizar o retorno do seu dinheiro. Conte conosco para fazer o seu dinheiro prosperar.",
+  },
 ];

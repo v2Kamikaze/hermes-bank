@@ -1,21 +1,23 @@
 import styles from "./WhyUs.module.css";
 import { whyUsMock } from "../../data/why-us-mock";
-import { Card } from "./Card";
-import { CardsList } from "./CardsList";
+import { ListItem } from "../AboutUs/ListItem";
+import { InfoGrid } from "./InfoGrid";
 
 export function WhyUs() {
   return (
     <section
-      id="about"
+      id="why-us"
       className={`baseContainer slideRightAnim ${styles.container}`}
     >
-      <h2>Por que escolher o Hermes Bank?</h2>
+      <h2>
+        Por que escolher o <span>Hermes Bank</span>?
+      </h2>
 
-      <CardsList>
+      <InfoGrid>
         {whyUsMock.map(({ key, text }) => (
-          <Card key={key} title={key} text={text} />
+          <ListItem key={key} title={key} text={text} />
         ))}
-      </CardsList>
+      </InfoGrid>
     </section>
   );
 }

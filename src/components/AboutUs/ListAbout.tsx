@@ -6,5 +6,5 @@ interface ListAboutProps {
 }
 
 export function ListAbout({ children }: ListAboutProps) {
-  return <ul className={styles.list}>{children}</ul>;
+  return <ul className={`slideRightAnim  ${styles.list}`}>{children}</ul>;
 }

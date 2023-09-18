@@ -6,16 +6,18 @@ import { ListAbout } from "./ListAbout";
 
 export function AboutUs() {
   return (
-    <section className={`baseContainer ${styles.container}`}>
-      <h2>Sobre o Hermes Bank</h2>
-      <p className={styles.text}>
+    <section id="about" className={`baseContainer ${styles.container}`}>
+      <h2 className="slideLeftAnim">
+        Sobre o <span>Hermes Bank</span>
+      </h2>
+      <p className={`slideLeftAnim ${styles.text}`}>
         No <span>Hermes Bank</span>, nossa jornada é impulsionada por uma visão
         ousada: redefinir a experiência bancária na América Latina. Desde nossa
         fundação, temos trabalhado incansavelmente para criar um banco que
         coloque você, nosso cliente, no centro de tudo o que fazemos.
       </p>
       <div className={styles.grid}>
-        <img src={personSrc} className={styles.aboutImg} />
+        <img src={personSrc} className={`slideLeftAnim  ${styles.aboutImg}`} />
         <ListAbout>
           {aboutUsMock.map(({ key, text }) => (
             <ListItem key={key} title={key} text={text} />
